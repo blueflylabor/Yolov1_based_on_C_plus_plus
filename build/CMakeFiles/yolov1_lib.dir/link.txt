@@ -1,0 +1,2 @@
+/usr/bin/ar qc libyolov1_lib.a CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o CMakeFiles/yolov1_lib.dir/src/loss.cpp.o CMakeFiles/yolov1_lib.dir/src/network.cpp.o CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o
+/usr/bin/ranlib libyolov1_lib.a

@@ -1,0 +1,30 @@
+# YOLOv1训练配置文件
+# 这是一个示例配置文件，用于真实数据集训练
+
+# 数据集参数
+dataset_type=YOLO
+# 图像目录路径（必须设置）
+images_dir=/path/to/your/images
+# 标签目录路径（必须设置）
+labels_dir=/path/to/your/labels
+
+# 图像参数
+image_width=448
+image_height=448
+
+# 网络参数
+grid_size=7
+boxes_per_cell=2
+num_classes=20
+lambda_coord=5.0
+lambda_noobj=0.5
+
+# 训练参数
+epochs=100
+batch_size=64
+learning_rate=0.001
+weight_decay=0.0005
+momentum=0.9
+
+# 模型保存参数
+model_save_path=yolov1_model.weights

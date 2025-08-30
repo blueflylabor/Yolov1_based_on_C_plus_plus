@@ -1,0 +1,25 @@
+# CIFAR-10训练配置文件
+dataset_type=YOLO
+images_dir=/Users/jeffwhynot/CLionProjects/Yolov1/build/cifar10_yolo/images/train
+labels_dir=/Users/jeffwhynot/CLionProjects/Yolov1/build/cifar10_yolo/labels/train
+
+# 图像参数
+image_width=448
+image_height=448
+
+# 网络参数
+grid_size=7
+boxes_per_cell=2
+num_classes=10
+lambda_coord=5.0
+lambda_noobj=0.5
+
+# 训练参数
+epochs=100
+batch_size=64
+learning_rate=0.001
+weight_decay=0.0005
+momentum=0.9
+
+# 模型保存参数
+model_save_path=cifar10_model.weights

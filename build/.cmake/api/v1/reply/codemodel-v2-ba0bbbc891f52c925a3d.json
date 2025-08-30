@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1ae16bcd88ac1108c54c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "YOLOv1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_cifar10_evaluate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_cifar10_evaluate-Debug-8243d664a1dec850ebac.json",
+					"name" : "yolov1_cifar10_evaluate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_cifar10_to_yolo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_cifar10_to_yolo-Debug-68d3022c0cc0435596a6.json",
+					"name" : "yolov1_cifar10_to_yolo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_demo-Debug-7889ae98857982050010.json",
+					"name" : "yolov1_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_lib-Debug-7c2f0bfad95bc09e1441.json",
+					"name" : "yolov1_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_train::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_train-Debug-a280702e96951c6f38ab.json",
+					"name" : "yolov1_train",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov1_train_real::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov1_train_real-Debug-d1bdf50043f1e9347bdf.json",
+					"name" : "yolov1_train_real",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jeffwhynot/CLionProjects/Yolov1/build",
+		"source" : "/Users/jeffwhynot/CLionProjects/Yolov1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
