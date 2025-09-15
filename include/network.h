@@ -2,6 +2,9 @@
 #define YOLOV1_NETWORK_H
 
 #include <vector>
+#include <iostream>
+#include <random>
+#include <cmath>
 #include <memory>
 #include <random>
 #include <cmath>

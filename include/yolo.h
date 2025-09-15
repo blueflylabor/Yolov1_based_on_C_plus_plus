@@ -2,6 +2,9 @@
 #define YOLOV1_YOLO_H
 
 #include <vector>
+#include <iostream>
+#include <random>
+#include <cmath>
 #include <string>
 #include <memory>
 #include <cmath>
@@ -80,6 +83,11 @@ public:
     // 计算损失函数（用于训练）
     float calculateLoss(const std::vector<float>& predictions,
                        const std::vector<float>& ground_truth);
+    
+    // 反向传播和参数更新
+    void backwardAndUpdate(const std::vector<float>& predictions,
+                         const std::vector<float>& ground_truth,
+                         float learning_rate);
 
     // 训练函数
     void train(const std::vector<std::vector<float>>& training_data,

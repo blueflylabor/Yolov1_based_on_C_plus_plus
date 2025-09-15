@@ -1,0 +1,25 @@
+# MNIST配置文件
+
+# 数据集配置
+dataset_type = mnist
+images_dir = ./mnist_yolo/images/train
+labels_dir = ./mnist_yolo/labels/train
+image_width = 28
+image_height = 28
+
+# 网络参数
+grid_size = 7
+boxes_per_cell = 2
+num_classes = 10
+coord_scale = 5.0
+noobj_scale = 0.5
+
+# 训练参数
+epochs = 3
+batch_size = 32
+learning_rate = 0.001
+weight_decay = 0.0005
+momentum = 0.9
+
+# 模型保存
+model_save_path = ./models/yolov1_mnist.weights

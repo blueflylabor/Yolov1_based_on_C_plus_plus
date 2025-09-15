@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="YOLOv1" targetName="yolov1_train_real" />
+      <config projectName="YOLOv1" targetName="yolov1_cifar10_evaluate" />
+      <config projectName="YOLOv1" targetName="yolov1_lib" />
+      <config projectName="YOLOv1" targetName="yolov1_demo" />
+      <config projectName="YOLOv1" targetName="yolov1_mnist_to_yolo" />
+      <config projectName="YOLOv1" targetName="yolov1_cifar10_to_yolo" />
+      <config projectName="YOLOv1" targetName="yolov1_train" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a214f50b-fde6-4953-bdc9-97658867f7fa" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-ba0bbbc891f52c925a3d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/directory-.-Debug-1ae16bcd88ac1108c54c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2025-08-30T10-32-04-0710.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_cifar10_evaluate-Debug-8243d664a1dec850ebac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_cifar10_to_yolo-Debug-68d3022c0cc0435596a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_demo-Debug-7889ae98857982050010.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_lib-Debug-7c2f0bfad95bc09e1441.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_train-Debug-a280702e96951c6f38ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-yolov1_train_real-Debug-d1bdf50043f1e9347bdf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/loss.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/loss.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/network.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/network.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libyolov1_lib.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/libyolov1_lib.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yolov1_cifar10_evaluate" beforeDir="false" afterPath="$PROJECT_DIR$/build/yolov1_cifar10_evaluate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yolov1_cifar10_to_yolo" beforeDir="false" afterPath="$PROJECT_DIR$/build/yolov1_cifar10_to_yolo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yolov1_demo" beforeDir="false" afterPath="$PROJECT_DIR$/build/yolov1_demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yolov1_train" beforeDir="false" afterPath="$PROJECT_DIR$/build/yolov1_train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yolov1_train_real" beforeDir="false" afterPath="$PROJECT_DIR$/build/yolov1_train_real" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cifar10_to_yolo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cifar10_to_yolo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/train_real_data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/train_real_data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/network.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/network.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/yolo.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/yolo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yolo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/yolo.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "blueflylabor"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:blueflylabor/Yolov1_based_on_C_plus_plus.git",
+    "accountId": "768e8588-bc92-4f35-81c5-5886c9552a41"
+  }
+}]]></component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3253QSGM2Vnq7Y7cu3idMDxhQeP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 应用程序.yolov1_cifar10_evaluate.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jeffwhynot/CLionProjects/Yolov1",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake 应用程序.yolov1_cifar10_evaluate">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_cifar10_evaluate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_cifar10_evaluate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_cifar10_evaluate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_cifar10_to_yolo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_cifar10_to_yolo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_cifar10_to_yolo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_demo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_mnist_to_yolo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_mnist_to_yolo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_mnist_to_yolo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_train" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_train" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_train">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yolov1_train_real" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="YOLOv1" TARGET_NAME="yolov1_train_real" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YOLOv1" RUN_TARGET_NAME="yolov1_train_real">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.yolov1_cifar10_evaluate" />
+      <item itemvalue="CMake 应用程序.yolov1_cifar10_to_yolo" />
+      <item itemvalue="CMake 应用程序.yolov1_demo" />
+      <item itemvalue="CMake 应用程序.yolov1_lib" />
+      <item itemvalue="CMake 应用程序.yolov1_mnist_to_yolo" />
+      <item itemvalue="CMake 应用程序.yolov1_train" />
+      <item itemvalue="CMake 应用程序.yolov1_train_real" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a214f50b-fde6-4953-bdc9-97658867f7fa" name="更改" comment="" />
+      <created>1756696589387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756696589387</updated>
+      <workItem from="1756696590472" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

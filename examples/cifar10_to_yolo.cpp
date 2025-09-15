@@ -1,4 +1,11 @@
 #include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <cstdint>
+#include <cmath>
+#include <random>
+#include <filesystem>
 #include <fstream>
 #include <vector>
 #include <string>

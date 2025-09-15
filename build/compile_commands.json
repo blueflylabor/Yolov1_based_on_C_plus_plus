@@ -1,56 +1,62 @@
 [
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/bbox.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/bbox.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/src/bbox.cpp",
   "output": "CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/loss.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/loss.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/loss.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/loss.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/src/loss.cpp",
   "output": "CMakeFiles/yolov1_lib.dir/src/loss.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/network.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/network.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/network.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/network.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/src/network.cpp",
   "output": "CMakeFiles/yolov1_lib.dir/src/network.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/yolo.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/src/yolo.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/src/yolo.cpp",
   "output": "CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/demo.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/demo.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/demo.cpp",
   "output": "CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_example.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_example.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/train_example.cpp",
   "output": "CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_real_data.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_real_data.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/train_real_data.cpp",
   "output": "CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_to_yolo.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_to_yolo.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_to_yolo.cpp",
   "output": "CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o"
 },
 {
   "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
-  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_evaluate.cpp",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_evaluate.cpp",
   "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_evaluate.cpp",
   "output": "CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o"
+},
+{
+  "directory": "/Users/jeffwhynot/CLionProjects/Yolov1/build",
+  "command": "/usr/bin/clang++ -I/Users/jeffwhynot/CLionProjects/Yolov1/include  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64 -o CMakeFiles/yolov1_mnist_to_yolo.dir/examples/mnist_to_yolo.cpp.o -c /Users/jeffwhynot/CLionProjects/Yolov1/examples/mnist_to_yolo.cpp",
+  "file": "/Users/jeffwhynot/CLionProjects/Yolov1/examples/mnist_to_yolo.cpp",
+  "output": "CMakeFiles/yolov1_mnist_to_yolo.dir/examples/mnist_to_yolo.cpp.o"
 }
 ]

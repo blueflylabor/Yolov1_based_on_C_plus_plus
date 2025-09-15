@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_yolov1_lib: phony || .
 build CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o: CXX_COMPILER__yolov1_lib_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/src/bbox.cpp || cmake_object_order_depends_target_yolov1_lib
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_lib.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_lib.dir/src
@@ -60,7 +60,7 @@ build CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o: CXX_COMPILER__yolov1_lib_unscann
 build CMakeFiles/yolov1_lib.dir/src/loss.cpp.o: CXX_COMPILER__yolov1_lib_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/src/loss.cpp || cmake_object_order_depends_target_yolov1_lib
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_lib.dir/src/loss.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_lib.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_lib.dir/src
@@ -68,7 +68,7 @@ build CMakeFiles/yolov1_lib.dir/src/loss.cpp.o: CXX_COMPILER__yolov1_lib_unscann
 build CMakeFiles/yolov1_lib.dir/src/network.cpp.o: CXX_COMPILER__yolov1_lib_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/src/network.cpp || cmake_object_order_depends_target_yolov1_lib
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_lib.dir/src/network.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_lib.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_lib.dir/src
@@ -76,7 +76,7 @@ build CMakeFiles/yolov1_lib.dir/src/network.cpp.o: CXX_COMPILER__yolov1_lib_unsc
 build CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o: CXX_COMPILER__yolov1_lib_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/src/yolo.cpp || cmake_object_order_depends_target_yolov1_lib
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_lib.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_lib.dir/src
@@ -92,7 +92,7 @@ build CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o: CXX_COMPILER__yolov1_lib_unscann
 build libyolov1_lib.a: CXX_STATIC_LIBRARY_LINKER__yolov1_lib_Debug CMakeFiles/yolov1_lib.dir/src/bbox.cpp.o CMakeFiles/yolov1_lib.dir/src/loss.cpp.o CMakeFiles/yolov1_lib.dir/src/network.cpp.o CMakeFiles/yolov1_lib.dir/src/yolo.cpp.o
   ARCH_FLAGS = -arch arm64
   CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g
   OBJECT_DIR = CMakeFiles/yolov1_lib.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -111,7 +111,7 @@ build cmake_object_order_depends_target_yolov1_demo: phony || cmake_object_order
 build CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o: CXX_COMPILER__yolov1_demo_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/demo.cpp || cmake_object_order_depends_target_yolov1_demo
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_demo.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_demo.dir/examples
@@ -126,7 +126,7 @@ build CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o: CXX_COMPILER__yolov1_demo_
 
 build yolov1_demo: CXX_EXECUTABLE_LINKER__yolov1_demo_Debug CMakeFiles/yolov1_demo.dir/examples/demo.cpp.o | libyolov1_lib.a || libyolov1_lib.a
   CONFIG = Debug
-  FLAGS = -g -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
   LINK_LIBRARIES = libyolov1_lib.a
   OBJECT_DIR = CMakeFiles/yolov1_demo.dir
   POST_BUILD = :
@@ -146,7 +146,7 @@ build cmake_object_order_depends_target_yolov1_train: phony || cmake_object_orde
 build CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o: CXX_COMPILER__yolov1_train_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_example.cpp || cmake_object_order_depends_target_yolov1_train
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_train.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_train.dir/examples
@@ -161,7 +161,7 @@ build CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o: CXX_COMPILER__yo
 
 build yolov1_train: CXX_EXECUTABLE_LINKER__yolov1_train_Debug CMakeFiles/yolov1_train.dir/examples/train_example.cpp.o | libyolov1_lib.a || libyolov1_lib.a
   CONFIG = Debug
-  FLAGS = -g -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
   LINK_LIBRARIES = libyolov1_lib.a
   OBJECT_DIR = CMakeFiles/yolov1_train.dir
   POST_BUILD = :
@@ -181,7 +181,7 @@ build cmake_object_order_depends_target_yolov1_train_real: phony || cmake_object
 build CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o: CXX_COMPILER__yolov1_train_real_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/train_real_data.cpp || cmake_object_order_depends_target_yolov1_train_real
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_train_real.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_train_real.dir/examples
@@ -196,7 +196,7 @@ build CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o: CXX_COMPI
 
 build yolov1_train_real: CXX_EXECUTABLE_LINKER__yolov1_train_real_Debug CMakeFiles/yolov1_train_real.dir/examples/train_real_data.cpp.o | libyolov1_lib.a || libyolov1_lib.a
   CONFIG = Debug
-  FLAGS = -g -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
   LINK_LIBRARIES = libyolov1_lib.a
   OBJECT_DIR = CMakeFiles/yolov1_train_real.dir
   POST_BUILD = :
@@ -216,7 +216,7 @@ build cmake_object_order_depends_target_yolov1_cifar10_to_yolo: phony || cmake_o
 build CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o: CXX_COMPILER__yolov1_cifar10_to_yolo_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_to_yolo.cpp || cmake_object_order_depends_target_yolov1_cifar10_to_yolo
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_cifar10_to_yolo.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_cifar10_to_yolo.dir/examples
@@ -231,7 +231,7 @@ build CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o: CXX_
 
 build yolov1_cifar10_to_yolo: CXX_EXECUTABLE_LINKER__yolov1_cifar10_to_yolo_Debug CMakeFiles/yolov1_cifar10_to_yolo.dir/examples/cifar10_to_yolo.cpp.o | libyolov1_lib.a || libyolov1_lib.a
   CONFIG = Debug
-  FLAGS = -g -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
   LINK_LIBRARIES = libyolov1_lib.a
   OBJECT_DIR = CMakeFiles/yolov1_cifar10_to_yolo.dir
   POST_BUILD = :
@@ -251,7 +251,7 @@ build cmake_object_order_depends_target_yolov1_cifar10_evaluate: phony || cmake_
 build CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o: CXX_COMPILER__yolov1_cifar10_evaluate_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/cifar10_evaluate.cpp || cmake_object_order_depends_target_yolov1_cifar10_evaluate
   CONFIG = Debug
   DEP_FILE = CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
   INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
   OBJECT_DIR = CMakeFiles/yolov1_cifar10_evaluate.dir
   OBJECT_FILE_DIR = CMakeFiles/yolov1_cifar10_evaluate.dir/examples
@@ -266,13 +266,48 @@ build CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o: CX
 
 build yolov1_cifar10_evaluate: CXX_EXECUTABLE_LINKER__yolov1_cifar10_evaluate_Debug CMakeFiles/yolov1_cifar10_evaluate.dir/examples/cifar10_evaluate.cpp.o | libyolov1_lib.a || libyolov1_lib.a
   CONFIG = Debug
-  FLAGS = -g -arch arm64
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
   LINK_LIBRARIES = libyolov1_lib.a
   OBJECT_DIR = CMakeFiles/yolov1_cifar10_evaluate.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = yolov1_cifar10_evaluate
   TARGET_PDB = yolov1_cifar10_evaluate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target yolov1_mnist_to_yolo
+
+
+#############################################
+# Order-only phony target for yolov1_mnist_to_yolo
+
+build cmake_object_order_depends_target_yolov1_mnist_to_yolo: phony || cmake_object_order_depends_target_yolov1_lib
+
+build CMakeFiles/yolov1_mnist_to_yolo.dir/examples/mnist_to_yolo.cpp.o: CXX_COMPILER__yolov1_mnist_to_yolo_unscanned_Debug /Users/jeffwhynot/CLionProjects/Yolov1/examples/mnist_to_yolo.cpp || cmake_object_order_depends_target_yolov1_mnist_to_yolo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/yolov1_mnist_to_yolo.dir/examples/mnist_to_yolo.cpp.o.d
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch arm64
+  INCLUDES = -I/Users/jeffwhynot/CLionProjects/Yolov1/include
+  OBJECT_DIR = CMakeFiles/yolov1_mnist_to_yolo.dir
+  OBJECT_FILE_DIR = CMakeFiles/yolov1_mnist_to_yolo.dir/examples
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target yolov1_mnist_to_yolo
+
+
+#############################################
+# Link the executable yolov1_mnist_to_yolo
+
+build yolov1_mnist_to_yolo: CXX_EXECUTABLE_LINKER__yolov1_mnist_to_yolo_Debug CMakeFiles/yolov1_mnist_to_yolo.dir/examples/mnist_to_yolo.cpp.o | libyolov1_lib.a || libyolov1_lib.a
+  CONFIG = Debug
+  FLAGS = -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -arch arm64
+  LINK_LIBRARIES = libyolov1_lib.a
+  OBJECT_DIR = CMakeFiles/yolov1_mnist_to_yolo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = yolov1_mnist_to_yolo
+  TARGET_PDB = yolov1_mnist_to_yolo.dbg
 
 
 #############################################
@@ -353,7 +388,7 @@ build yolov1_lib: phony libyolov1_lib.a
 #############################################
 # Folder: /Users/jeffwhynot/CLionProjects/Yolov1/build
 
-build all: phony libyolov1_lib.a yolov1_demo yolov1_train yolov1_train_real yolov1_cifar10_to_yolo yolov1_cifar10_evaluate
+build all: phony libyolov1_lib.a yolov1_demo yolov1_train yolov1_train_real yolov1_cifar10_to_yolo yolov1_cifar10_evaluate yolov1_mnist_to_yolo
 
 # =============================================================================
 # Built-in targets
